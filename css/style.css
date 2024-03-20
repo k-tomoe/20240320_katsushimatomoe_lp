@@ -1,0 +1,427 @@
+/* 全体フォント設定 */
+.title--en {
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    margin-bottom: 5px;
+    color: #BF2F75;
+}
+
+.text--pink {
+    color: #BF2F75;
+}
+
+.title {
+    margin-bottom: 15px;
+    font-size: 2vw;
+    color: #717171;
+}
+
+.text--gray {
+    color: #717171;
+}
+
+/* header設定 */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header__logo {
+    width: 150px;
+    height: auto;
+}
+
+.header__logo img {
+    width: 100%;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__list {
+    padding: 8px;
+}
+
+.header__list a {
+    text-decoration: none;
+    color: #717171;
+}
+
+/* first view設定 */
+.first-view {
+    position: relative;
+}
+
+.first-view__text {
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 12%;
+}
+
+.first-view__title {
+    font-size: 5vw;
+}
+
+.first-view__title p {
+    margin-bottom: 15px;
+}
+
+.first-view__img {
+    margin: 0 0 0 auto;
+    width: 60%;
+}
+
+.first-view__img img {
+    width: 100%;
+}
+
+.text--green {
+    color: #00A6A1;
+}
+.text--bold {
+    font-weight: bold;
+}
+
+.first-view__catchphrase {
+    margin-top: 50px;
+}
+
+.first-view__catchphrase p {
+    margin-bottom: 18px;
+}
+
+.first-view__catchphrase-ja {
+    font-size: 2.2vw;
+}
+
+.first-view__catchphrase-note {
+    font-size: 1.5vw;
+}
+
+
+/* ニュース設定 */
+.news {
+    padding: 50px 15%;
+}
+
+.news__list {
+    font-size: 1.2vw;
+    border-top: 1.5px solid #cdcbcb;
+    border-bottom: 1.5px solid #cdcbcb;
+    padding: 2%;
+}
+
+.news__list dl {
+    padding: 5px 10px;
+    border-bottom: 1px solid #eae9e9;
+}
+
+.news__list span {
+    background: #B31667;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 5px;
+    border-radius: 30px;
+}
+
+.news__list dt,
+.news__list dd {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+
+
+/* about設定 */
+.about {
+    padding: 50px 15%;
+    text-align: center;
+    background: #F5F5F5;
+}
+
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__img {
+    width: 40%;
+}
+
+.about__img img {
+    width: 100%;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 40%;
+    font-size: 1.2vw;
+    line-height: 2.2vw;
+}
+
+.about__text-up {
+    margin-bottom: 10%;
+}
+
+/* サービス内容設定 */
+.service {
+    padding: 50px 15%;
+}
+
+.service__content {
+    display: flex;
+    color: #fff;
+    line-height: 2.2vw;
+}
+
+.service__main {
+    width: 50%;
+    text-align: center;
+    background-color: #B31667;
+    padding: 15px;
+}
+
+.service__sub-block {
+    width: 50%;
+}
+
+.service__main img,
+.service__sub img {
+    width: 40%;
+}
+
+.service__main h3,
+.service__sub-text h3 {
+    font-size: 1.8vw;
+    padding: 10px;
+}
+
+.service__main p,
+.service__sub-text p {
+    font-size: 1.2vw;
+    padding: 10px;
+}
+
+.service__main p {
+    text-align: left;
+}
+
+.service__sub {
+    display: flex;
+    padding: 8%;
+}
+
+.service__sub--bgc-pink {
+    background-color: #B35B8B;
+}
+
+.service__sub--bgc-gray {
+    background-color: #B2889E;
+}
+
+
+/* ブログ設定 */
+.blog {
+    padding: 50px 15%;
+    background: #F5F5F5;
+}
+
+.blog__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__card {
+    width: 30%;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    font-size: 1.2vw;
+    line-height: 2.2vw;
+}
+
+.card__img img {
+    width: 100%;
+}
+
+.card__cat {
+    padding: 5px 10px;
+    background: #B31667;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+}
+
+.card__content {
+    padding: 5% 5%;
+    color: #888888;
+}
+
+.tag {
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.card__date {
+    display: inline-block;
+}
+
+.card__tag {
+    display: inline-block;
+}
+
+.blog__btn {
+    width: 200px;
+    padding: 20px 0;
+    border-radius: 30px;
+    background: #fff;
+    border: #B31667 solid 2px;
+    color: #B31667;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 50px;
+    display: block;
+    margin: 50px auto 0 auto;
+}
+
+
+/* 会社概要設定 */
+.profile {
+    padding: 50px 20%;
+}
+
+.profile__list {
+    width: 100%;
+    /* テーブルのセルボーダー表示形式、重ねて表示する */
+    border-collapse: collapse;
+}
+
+.profile__list th,
+.profile__list td {
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+    font-size: 1.5vw;
+}
+
+.profile__list th {
+    font-weight: bold;
+    background-color: #F5F5F5;
+    text-align: left;
+}
+
+/* サイトマップ設定 */
+.sitemap {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.sitemap__recruit {
+    width: 50%;
+    height: 20vw;
+    background-image: url(../img/recruit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sitemap__interview {
+    width: 50%;
+    height: 20vw;
+    background-image: url(../img/interview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sitemap__recruit a,
+.sitemap__interview a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2vw;
+}
+
+/* お問い合わせ設定 */
+.inquiry {
+    text-align: center;
+    padding: 50px 15%;
+}
+
+.inquiry__text {
+    position: relative;
+}
+
+.inquiry__text::after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 30px;
+    background-color: #B71568;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+}
+
+.inquiry__btn {
+    width: 250px;
+    padding: 20px 0;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #FE1E90, #B71568);
+    text-decoration: none;
+    box-shadow: 0px 7px 0px #840050;
+    text-align: center;
+    margin-top: 50px;
+    display: block;
+    margin: 50px auto 0 auto;
+    position: relative;
+}
+
+.inquiry__btn::before {
+    content: "";
+    background: url(../img/mailicon.svg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 25px;
+    transform: translate(0, -50%);
+
+}
+
+
+.inquiry__btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* フッター設定 */
+.footer {
+    text-align: center;
+    background: #F5F5F5;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
